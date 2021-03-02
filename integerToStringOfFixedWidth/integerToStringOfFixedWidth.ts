@@ -12,12 +12,12 @@ export function integerToStringOfFixedWidth(
   console.log(diff)
 
   for (let i = 0; i < width; i++) {
-    if (numArr.length !== width && numArr.length > width) {
-      numArr.splice(0, diff);
-      console.log(numArr);
-    } else if (numArr.length < width) {
+    if (numArr.length < width) {
       console.log(numArr);
       numArr.unshift('0');
+    } else if (numArr.length > width) {
+      numArr.splice(0, diff);
+      console.log(numArr);
     }
   }
   console.log(numArr)

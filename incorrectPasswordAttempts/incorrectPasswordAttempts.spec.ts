@@ -1,6 +1,6 @@
 import { incorrectPasscodeAttempts } from './incorrectPasswordAttempts';
 
-describe(incorrectPasscodeAttempts.name, () => {
+xdescribe(incorrectPasscodeAttempts.name, () => {
     it('Test 1', () => {
         // arrange
         const passcode = "1111";

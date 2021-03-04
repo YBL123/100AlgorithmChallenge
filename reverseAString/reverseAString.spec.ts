@@ -20,6 +20,6 @@ xdescribe(reverseAString.name, () => {
         const response = reverseAString(inputString);
 
         // assert 
-        expect(response).toBe('Howdy');
+        expect(response).toBe('ydwoH');
     });
 });
